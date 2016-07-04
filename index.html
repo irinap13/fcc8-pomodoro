@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FreeCodeCamp #8</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|PT+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css' rel='stylesheet' type='text/css'>
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<link href='style.min.css' rel='stylesheet' type='text/css'>
+	<script src='script.min.js'></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-10 col-md-offset-1">
+			<div class="content-block">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h4>How many sessions?</h4>
+						<button class="btn btn-default minus hms timecontrol">-</button>
+						<span class="number hms">1</span>
+						<button class="btn btn-default plus hms timecontrol">+</button>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4>Session length?</h4>
+						<button class="btn btn-default minus sl timecontrol">-</button>
+						<span class="number sl">10</span>
+						<button class="btn btn-default plus sl timecontrol">+</button>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<h4>Break length?</h4>
+						<button class="btn btn-default minus bl timecontrol">-</button>
+						<span class="number bl">10</span>
+						<button class="btn btn-default plus bl timecontrol">+</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="clock">
+							<span>00:10</span>
+						</div>
+						<div class="clock-control">
+							<button class="btn btn-default">
+								<span id="pause">&#10074;&#10074;</span>
+								<span id="play">&#9658;</span>
+								<span id="resume">&#9658;</span>
+							</button>
+						</div>
+					</div>
+					<div id="info"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>  
+</body>
+</html>
